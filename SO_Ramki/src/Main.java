@@ -9,7 +9,6 @@ public class Main {
 		ArrayList <Page> queue = new ArrayList<>();
 
 		Random r = new Random();
-		//7,4
 		
 		int pages = 10;
 		int frames = 4;
