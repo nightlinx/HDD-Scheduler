@@ -32,9 +32,6 @@ public class Main {
 		
 		errors = Algorytm.OPT(clonedList(queue), frames);
 		System.out.println("OPT: " + errors);			
-		
-		
-		
 	}
 
 	public static ArrayList <Page> clonedList(ArrayList <Page> queue) {
