@@ -9,7 +9,6 @@ public class Main {
 		ArrayList <Page> queue = new ArrayList<>();
 
 		Random r = new Random();
-		//7,4
 		
 		int pages = 10;
 		int frames = 4;
@@ -33,9 +32,6 @@ public class Main {
 		
 		errors = Algorytm.OPT(clonedList(queue), frames);
 		System.out.println("OPT: " + errors);			
-		
-		
-		
 	}
 
 	public static ArrayList <Page> clonedList(ArrayList <Page> queue) {
